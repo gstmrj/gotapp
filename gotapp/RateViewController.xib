@@ -9,6 +9,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RateViewController" customModule="gotapp" customModuleProvider="target">
             <connections>
+                <outlet property="accept" destination="CT0-yq-pzV" id="ej2-Bs-QZQ"/>
+                <outlet property="labelRate" destination="BFu-Bf-md1" id="lCd-tV-Vt3"/>
+                <outlet property="slider" destination="s1G-WZ-SgB" id="etW-Xl-dz1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,6 +24,9 @@
                     <rect key="frame" x="18" y="498" width="378" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="tintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="RatingWith_sender:" destination="-1" eventType="valueChanged" id="ryV-p2-QqT"/>
+                    </connections>
                 </slider>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFu-Bf-md1">
                     <rect key="frame" x="20" y="462" width="374" height="28"/>
@@ -35,9 +41,12 @@
                     <rect key="frame" x="20" y="773" width="374" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.66887953367875652" green="0.55335176890319016" blue="0.18389941936216206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    <state key="normal" title="Button">
+                    <state key="normal" title="Accept">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
+                    <connections>
+                        <action selector="accept:" destination="-1" eventType="touchUpInside" id="YXn-2d-44s"/>
+                    </connections>
                 </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wrGWeW4WKxnaeA8sxJb2T9O6ryo" translatesAutoresizingMaskIntoConstraints="NO" id="2X7-Oe-FSS">
                     <rect key="frame" x="20" y="44" width="374" height="345"/>
