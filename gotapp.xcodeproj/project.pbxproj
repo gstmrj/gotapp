@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		D24121372445FB0200C41632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24121362445FB0200C41632 /* AppDelegate.swift */; };
 		D24121392445FB0200C41632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24121382445FB0200C41632 /* SceneDelegate.swift */; };
-		D241213B2445FB0200C41632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241213A2445FB0200C41632 /* ViewController.swift */; };
-		D241213E2445FB0200C41632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D241213C2445FB0200C41632 /* Main.storyboard */; };
 		D24121402445FB0300C41632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D241213F2445FB0300C41632 /* Assets.xcassets */; };
 		D24121432445FB0300C41632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24121412445FB0300C41632 /* LaunchScreen.storyboard */; };
 		D241214E2445FB0300C41632 /* gotappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D241214D2445FB0300C41632 /* gotappTests.swift */; };
+		D241215A2446265E00C41632 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24121582446265E00C41632 /* RateViewController.swift */; };
+		D241215B2446265E00C41632 /* RateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24121592446265E00C41632 /* RateViewController.xib */; };
+		D241215F24464EFF00C41632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D241215E24464EFF00C41632 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +31,15 @@
 		D24121332445FB0200C41632 /* gotapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gotapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24121362445FB0200C41632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24121382445FB0200C41632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D241213A2445FB0200C41632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D241213D2445FB0200C41632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D241213F2445FB0300C41632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24121422445FB0300C41632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D24121442445FB0300C41632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24121492445FB0300C41632 /* gotappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gotappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D241214D2445FB0300C41632 /* gotappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gotappTests.swift; sourceTree = "<group>"; };
 		D241214F2445FB0300C41632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24121582446265E00C41632 /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		D24121592446265E00C41632 /* RateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateViewController.xib; sourceTree = "<group>"; };
+		D241215E24464EFF00C41632 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +81,11 @@
 		D24121352445FB0200C41632 /* gotapp */ = {
 			isa = PBXGroup;
 			children = (
+				D24121582446265E00C41632 /* RateViewController.swift */,
+				D24121592446265E00C41632 /* RateViewController.xib */,
 				D24121362445FB0200C41632 /* AppDelegate.swift */,
 				D24121382445FB0200C41632 /* SceneDelegate.swift */,
-				D241213A2445FB0200C41632 /* ViewController.swift */,
-				D241213C2445FB0200C41632 /* Main.storyboard */,
+				D241215E24464EFF00C41632 /* Main.storyboard */,
 				D241213F2445FB0300C41632 /* Assets.xcassets */,
 				D24121412445FB0300C41632 /* LaunchScreen.storyboard */,
 				D24121442445FB0300C41632 /* Info.plist */,
@@ -180,9 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D241215B2446265E00C41632 /* RateViewController.xib in Resources */,
 				D24121432445FB0300C41632 /* LaunchScreen.storyboard in Resources */,
 				D24121402445FB0300C41632 /* Assets.xcassets in Resources */,
-				D241213E2445FB0200C41632 /* Main.storyboard in Resources */,
+				D241215F24464EFF00C41632 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D241213B2445FB0200C41632 /* ViewController.swift in Sources */,
+				D241215A2446265E00C41632 /* RateViewController.swift in Sources */,
 				D24121372445FB0200C41632 /* AppDelegate.swift in Sources */,
 				D24121392445FB0200C41632 /* SceneDelegate.swift in Sources */,
 			);
@@ -225,14 +229,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D241213C2445FB0200C41632 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D241213D2445FB0200C41632 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D24121412445FB0300C41632 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
